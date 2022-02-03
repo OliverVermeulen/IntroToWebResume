@@ -1,9 +1,15 @@
 header {
     background-color:rgb(119, 150, 207);
+    font-family: sans-serif;
     text-align: center;
+}
+
+main {
+    font-family: sans-serif;
 }
 
 footer {
     background-color: bisque;
+    font-family: sans-serif;
     text-align: center;
 }
