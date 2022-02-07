@@ -22,7 +22,6 @@ header {
     border: 5px solid rgb(255, 255, 255);
 }
 
-
 #sidebar {
     width: 15%;
     background-color: #00b7ff;
@@ -41,6 +40,16 @@ header {
 
 #content {
     width: 80%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.skills {
+    padding: 0%;
+}
+
+.interests {
+    padding: 0%;
 }
 
 footer {
@@ -49,7 +58,7 @@ footer {
     text-align: center;
 }
 
-.icons{
+.icons {
     width: 3rem;
     height: auto;
     margin: 0.3rem;
