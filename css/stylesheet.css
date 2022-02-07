@@ -4,11 +4,13 @@ body {
     color: #052A44;
     background-color: #FDC800;
 }
+
 header {
     background-color: #03D99D;
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 120%;
+    padding: 1rem;
 }
 
 #profileHeadshot {
@@ -21,6 +23,8 @@ header {
 
 #sidebar {
     width: 15%;
+    background-color: #03D99D;
+    padding: 1rem;
 }
 
 .navMenu {
@@ -35,4 +39,10 @@ footer {
     background-color: #F83D96;
     color: rgb(255, 254, 254);
     text-align: center;
+}
+
+.icons{
+    width: 3rem;
+    height: auto;
+    margin: 0.3rem;
 }
