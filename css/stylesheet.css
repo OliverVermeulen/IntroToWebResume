@@ -30,18 +30,8 @@ body {
     width: 10%;
     background-color: #4f865b;
     padding: 1rem;
-}
-
-.navMenu {
-    padding: 0rem;
-}
-
-.skills {
-    padding: 0rem;
-}
-
-.interests {
-    padding: 0rem;
+    top: 0;
+    right: 0;
 }
 
 .main {
