@@ -8,17 +8,27 @@ header {
     background-color: #03D99D;
     color: rgb(255, 255, 255);
     text-align: center;
+    font-size: 120%;
 }
-#heading {
-    font-size: 150%;
+
+#profileHeadshot {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
 }
+
 
 #sidebar {
     width: 15%;
 }
 
+.navMenu {
+    padding: 0%;
+}
+
 #content {
-    width: 80%
+    width: 80%;
 }
 
 footer {
