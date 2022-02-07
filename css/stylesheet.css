@@ -23,13 +23,21 @@ header {
 }
 
 #sidebar {
-    width: 15%;
+    width: 10%;
     background-color: #00b7ff;
     padding: 1rem;
 }
 
 .navMenu {
-    padding: 0%;
+    padding: 0rem;
+}
+
+.skills {
+    padding: 0rem;
+}
+
+.interests {
+    padding: 0rem;
 }
 
 .main {
@@ -39,7 +47,7 @@ header {
 }
 
 #content {
-    width: 80%;
+    width: 90%;
     padding: 1rem;
     margin: 1rem;
 }
