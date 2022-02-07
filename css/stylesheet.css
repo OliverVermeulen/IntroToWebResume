@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial,Helvetica,sans-serif;
     font-size: 110%;
     color: #052A44;
     background-color: #FDC800;
@@ -8,6 +8,9 @@ header {
     background-color: #03D99D;
     color: rgb(255, 255, 255);
     text-align: center;
+}
+#heading {
+    font-size: 150%;
 }
 
 #sidebar {
