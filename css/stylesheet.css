@@ -61,14 +61,16 @@ footer {
     background-image: url("../Images/plant.jfif");
 }
 
-.icons {
-    width: 3rem;
+/* The icons below are the icons in my header.*/
+.headIcons {
+    width: 20px;
     height: auto;
     margin: 0.3rem;
 }
 
-.headIcons {
-    width: 20px;
+/* The icons below are the icons in my footer.*/
+.footIcons {
+    width: 3rem;
     height: auto;
     margin: 0.3rem;
 }
