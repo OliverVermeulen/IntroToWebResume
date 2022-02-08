@@ -8,7 +8,7 @@ body {
 }
 
 #heading {
-    background-color: #03d99d;
+    background-color: #2D4030;
     color: rgb(255, 255, 255);
     font-size: 100%;
     padding: 1rem;
@@ -55,7 +55,7 @@ body {
 }
 
 footer {
-    background-color: #108028;
+    background-color: #2D4030;
     color: rgb(255, 254, 254);
     text-align: center;
     background-image: url("../Images/plant.jfif");
