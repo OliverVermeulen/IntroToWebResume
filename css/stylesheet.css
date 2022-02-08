@@ -9,7 +9,7 @@ body {
 
 #heading {
     background-color: #2D4030;
-    color: rgb(255, 255, 255);
+    color: #FFFFFF;
     font-size: 100%;
     padding: 1rem;
     background-image: url("../Images/plant.jfif");
@@ -23,7 +23,7 @@ body {
 #profileHeadshot {
     width: 15%;
     border-radius: 50%;
-    border: 5px solid rgb(255, 255, 255);
+    border: 5px solid #FFFFFF;
 }
 
 /*#sidebar {
@@ -56,7 +56,7 @@ body {
 
 footer {
     background-color: #2D4030;
-    color: rgb(255, 254, 254);
+    color: #FFFFFF;
     text-align: center;
     background-image: url("../Images/plant.jfif");
 }
