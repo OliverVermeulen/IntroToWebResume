@@ -11,7 +11,7 @@ header {
     padding: 0.5rem;
     height: auto;
     width: auto;
-    background-image: url("../Images/plant.jfif");
+    background-image: url("../Images/plantBackground.jfif");
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -58,27 +58,6 @@ main {
     height: auto;
 }
 
-#menu {
-    text-align: center;
-    color: #FFFFFF;
-}
-
-#skills {
-    text-align: center;
-    color: #FFFFFF;
-}
-
-#interests {
-    text-align: center;
-    color: #FFFFFF;
-}
-
-#sidebar {
-    width: auto;
-    background-color: #4f865b;
-    padding: 0.5rem;
-}
-
 #myself {
     border-style: solid;
     border-width: 0.5px;
@@ -97,7 +76,7 @@ main {
     border-color: #000000;
 }
 
-#experience {
+.experience {
     border-style: solid;
     border-width: 0.5px;
     margin: 20px;
@@ -106,17 +85,39 @@ main {
     border-color: #000000;
 }
 
+#menu {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#sidebar {
+    width: auto;
+    background-color: #4f865b;
+    padding: 0.5rem;
+}
+
+#skills {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#interests {
+    text-align: center;
+    color: #FFFFFF;
+}
+
 footer {
     background-color: #2D4030;
     color: #FFFFFF;
     text-align: center;
-    background-image: url("../Images/plant.jfif");
+    background-image: url("../Images/plantBackground.jfif");
     width: auto;
     height: auto;
 }
 
-#social {
+.social {
     margin-top: 0%;
+    margin-bottom: 10px;
 }
 
 /* The icons below are the icons in my footer.*/
