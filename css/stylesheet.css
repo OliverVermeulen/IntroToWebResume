@@ -58,25 +58,7 @@ main {
     height: auto;
 }
 
-#myself {
-    border-style: solid;
-    border-width: 0.5px;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 20px 20px 20px 20px;
-    border-color: #000000;
-}
-
-#education {
-    border-style: solid;
-    border-width: 0.5px;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 20px 20px 20px 20px;
-    border-color: #000000;
-}
-
-#experience {
+.content {
     border-style: solid;
     border-width: 0.5px;
     margin: 20px;
