@@ -67,15 +67,15 @@ main {
     border-color: #000000;
 }
 
-#menu {
-    text-align: center;
-    color: #FFFFFF;
-}
-
 .sidebar {
     width: auto;
     background-color: #4f865b;
     padding: 0.5rem;
+}
+
+#menu {
+    text-align: center;
+    color: #FFFFFF;
 }
 
 #skills {
