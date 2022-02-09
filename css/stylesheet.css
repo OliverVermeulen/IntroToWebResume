@@ -18,16 +18,16 @@ header {
     justify-content: flex-start;
 }
 
-#profileHeadshot {
+#box1 {
+    width: auto;
+    text-align: left;
+}
+
+.profileHeadshot {
     width: 40%;
     height: 40%;
     border-radius: 50%;
     border: 5px solid #FFFFFF;
-}
-
-#box1 {
-    width: auto;
-    text-align: left;
 }
 
 #box2 {
@@ -76,7 +76,7 @@ main {
     border-color: #000000;
 }
 
-.experience {
+#experience {
     border-style: solid;
     border-width: 0.5px;
     margin: 20px;
@@ -90,7 +90,7 @@ main {
     color: #FFFFFF;
 }
 
-#sidebar {
+.sidebar {
     width: auto;
     background-color: #4f865b;
     padding: 0.5rem;
