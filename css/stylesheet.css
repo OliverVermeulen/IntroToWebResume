@@ -29,8 +29,8 @@ header {
 }
 
 .profileHeadshot {
-    width: 40%;
-    height: 50%;
+    min-height: 40%;
+    max-width: 40%;
     border-radius: 50%;
     border: 5px solid #FFFFFF;
 }
@@ -74,7 +74,7 @@ main {
 }
 
 .sidebar {
-    width: auto;
+    width: 15%;
     background-color: #637D3C;
     padding: 0.5rem;
 }
