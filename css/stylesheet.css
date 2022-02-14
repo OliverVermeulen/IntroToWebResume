@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-/*below is the custom font I used as well as what elements I implemented the font on.*/
+/*Below is the custom font I used as well as what elements I implemented the font on.*/
 @font-face { font-family: Staatliches; src: url('Staatliches.ttf'); }
 
 h1 {
@@ -33,7 +33,7 @@ body {
     margin: 0;
 }
 
-/* Below is the styling for the header and its contents.*/
+/*Below is the styling for the header and its contents.*/
 header {
     background-color: #2D4030;
     color: #FFFFFF;
@@ -74,7 +74,7 @@ header {
     margin-right: 0.5rem;
 }
 
-/* Below is the styling for the main body as well as the side bar and their contents.*/
+/*Below is the styling for the main body as well as the side bar and their contents.*/
 main {
     display: flex;
     flex-direction: row;
@@ -85,7 +85,7 @@ main {
     background-image: url("../Images/plantLineArt.png");
     background-repeat: no-repeat;
     background-position-x: 80%;
-    background-position-y: 90%;
+    background-position-y: 102%;
 }
 
 .content {
@@ -98,7 +98,8 @@ main {
     margin-left: 5%;
     margin-right: 5%
 }
-.paragraph {
+
+.myselfParagraph {
     margin-left: 40px;
 }
 
@@ -117,7 +118,7 @@ main {
     text-align: center;
 }
 
-/* Below is the styling for the footer and its contents.*/
+/*Below is the styling for the footer and its contents.*/
 footer {
     background-color: #2D4030;
     color: #FFFFFF;
@@ -127,6 +128,7 @@ footer {
     height: 100%;
 }
 
+/*Contact heading*/
 #social {
     margin-top: 0%;
     margin-bottom: 10px;
@@ -139,6 +141,6 @@ footer {
 }
 
 .footIcons:hover {
-    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    box-shadow: 0 5px 15px #FFFFFF;
     border-radius: 48px;
 }
