@@ -99,7 +99,7 @@ main {
     margin-right: 5%
 }
 
-.myselfParagraph {
+.introductionParagraph {
     margin-left: 40px;
 }
 
@@ -109,9 +109,12 @@ main {
     font-weight: normal;
     color: #302e2e;
 }
+
 .sidebar {
     width: 15%;
     background-color: #7BB376;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .sideBarHeading {
@@ -128,7 +131,6 @@ footer {
     height: 100%;
 }
 
-/*Contact heading*/
 #social {
     margin-top: 0%;
     margin-bottom: 10px;
