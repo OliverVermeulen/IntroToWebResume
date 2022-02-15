@@ -22,5 +22,5 @@ This is my personal resume I can share with prospective employers.
 
 ## Backlog
 - Add comments to code (complete)
-- Add font (complete)
+- Add custom fonts (complete)
 - Scale profile photo (complete)
