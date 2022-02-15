@@ -4,10 +4,13 @@
 
 /*Below is the custom font I used as well as what elements I implemented the font on.*/
 @font-face { font-family: Staatliches; src: url('Staatliches.ttf'); }
+@font-face { font-family: Ubuntu-Light; src: url('Ubuntu-Light.ttf'); }
 
 h1 {
     font-family: Staatliches, sans-serif;
     font-size: 350%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -18,19 +21,20 @@ h2 {
 
 h3 {
     font-family: Staatliches, sans-serif;
-    font-size: 120%;
+    font-size: 145%;
 }
 
 h4 {
     font-family: Staatliches, sans-serif;
-    font-size: 100%;
+    font-size: 135%;
 }
 
 body {
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Ubuntu-Light;
     background-color: #FFFFFF;
     color: #000000;
     margin: 0;
+    font-size: 125%;
 }
 
 /*Below is the styling for the header and its contents.*/
@@ -71,7 +75,7 @@ header {
 .headIcons {
     width: 20px;
     height: auto;
-    margin-right: 0.5rem;
+    margin-right: 10px;
 }
 
 /*Below is the styling for the main body as well as the side bar and their contents.*/
@@ -84,8 +88,8 @@ main {
     height: auto;
     background-image: url("../images/plantLineArt.png");
     background-repeat: no-repeat;
-    background-position-x: 80%;
-    background-position-y: 102%;
+    background-position-x: 75%;
+    background-position-y: 95%;
 }
 
 .content {
@@ -104,17 +108,20 @@ main {
 }
 
 [href] {
-    color: #302e2e;
+    color: #EBB461;
     text-decoration: underline;
     background: transparent;
-    font-weight: normal;
+}
+
+[href]:hover {
+    opacity: 0.85;
 }
 
 .sidebar {
     background-color: #7BB376;
-    width: 15%;
-    padding-left: 0.5%;
-    padding-right: 0.5%;
+    width: 20%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .sideBarHeading {
