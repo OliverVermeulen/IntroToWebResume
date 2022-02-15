@@ -78,7 +78,7 @@ header {
     text-align: left;
 }
 
-.head-icons {
+.contact-icons {
     width: 20px;
     height: auto;
     margin-right: 10px;
@@ -150,13 +150,13 @@ footer {
     margin-bottom: 10px;
 }
 
-.foot-icons {
+.social-icons {
     width: 48px;
     height: 48px;
     margin: 5px;
 }
 
-.foot-icons:hover {
+.social-icons:hover {
     box-shadow: 0 5px 15px #FFFFFF;
     border-radius: 48px;
 }
