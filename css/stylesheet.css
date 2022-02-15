@@ -8,6 +8,7 @@
 
 h1 {
     font-family: Staatliches, sans-serif;
+    text-transform: uppercase;
     font-size: 350%;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -15,18 +16,23 @@ h1 {
 
 h2 {
     font-family: Staatliches, sans-serif;
+    text-transform: uppercase;
     font-size: 200%;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h3 {
     font-family: Staatliches, sans-serif;
+    text-transform: uppercase;
     font-size: 145%;
 }
 
 h4 {
     font-family: Staatliches, sans-serif;
+    text-transform: uppercase;
     font-size: 135%;
+    margin-left: 10px;
 }
 
 body {
@@ -144,9 +150,9 @@ footer {
 }
 
 .footIcons {
-    width: 3rem;
-    height: auto;
-    margin: 0.3rem;
+    width: 48px;
+    height: 48px;
+    margin: 5px;
 }
 
 .footIcons:hover {
