@@ -61,7 +61,7 @@ header {
     width: 444px;
 }
 
-.profileHeadshot {
+.profile-headshot {
     border: 5px solid #FFFFFF;
     width: 250px;
     height: 250px;
@@ -78,7 +78,7 @@ header {
     text-align: left;
 }
 
-.headIcons {
+.head-icons {
     width: 20px;
     height: auto;
     margin-right: 10px;
@@ -91,7 +91,7 @@ main {
     overflow: unset;
     font-size: 100%;
     width: 100%;
-    height: auto;
+    height: 100%;
     background-image: url("../images/plant-line-art.png");
     background-repeat: no-repeat;
     background-position-x: 75%;
@@ -109,12 +109,13 @@ main {
     margin-right: 5%
 }
 
-.introductionParagraph {
+.introduction-paragraph {
     margin-left: 40px;
 }
 
 [href] {
-    color: #EBB461;
+    /*color: #EBB461;*/
+    color: #325364;
     text-decoration: underline;
     background: transparent;
 }
@@ -130,7 +131,7 @@ main {
     padding-right: 1%;
 }
 
-.sideBarHeading {
+.sidebar-heading {
     text-align: center;
 }
 
@@ -149,13 +150,13 @@ footer {
     margin-bottom: 10px;
 }
 
-.footIcons {
+.foot-icons {
     width: 48px;
     height: 48px;
     margin: 5px;
 }
 
-.footIcons:hover {
+.foot-icons:hover {
     box-shadow: 0 5px 15px #FFFFFF;
     border-radius: 48px;
 }
