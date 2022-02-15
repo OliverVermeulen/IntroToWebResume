@@ -78,6 +78,10 @@ header {
     text-align: left;
 }
 
+#contact dd {
+    margin-left: 0%;
+}
+
 .contact-icons {
     width: 20px;
     height: auto;
@@ -89,7 +93,6 @@ main {
     display: flex;
     flex-direction: row;
     overflow: unset;
-    font-size: 100%;
     width: 100%;
     height: 100%;
     background-image: url("../images/plant-line-art.png");
@@ -109,19 +112,18 @@ main {
     margin-right: 5%
 }
 
-.introduction-paragraph {
+.content p {
     margin-left: 40px;
 }
 
 [href] {
-    /*color: #EBB461;*/
     color: #325364;
     text-decoration: underline;
     background: transparent;
 }
 
 [href]:hover {
-    opacity: 0.85;
+    opacity: 85%;
 }
 
 .sidebar {
@@ -131,7 +133,7 @@ main {
     padding-right: 1%;
 }
 
-.sidebar-heading {
+.sidebar h2 {
     text-align: center;
 }
 
