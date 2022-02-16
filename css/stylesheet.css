@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /*Below is the custom fonts I used as well as all the elements I implemented them on.*/
