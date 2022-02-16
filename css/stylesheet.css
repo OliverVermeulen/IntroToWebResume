@@ -60,7 +60,7 @@ header {
 }
 
 #headshot {
-    width: 381px;
+    width: auto;
     height: auto;
 }
 
@@ -78,7 +78,7 @@ header {
 }
 
 #contact {
-    width: 381px;
+    width: auto;
     height: auto;
     text-align: left;
 }
@@ -136,8 +136,9 @@ main {
 .sidebar {
     background-color: #7BB376;
     width: auto;
-    padding-left: 1%;
-    padding-right: 1%;
+    height: auto;
+    padding-left: 14px;
+    padding-right: 14px;
 }
 
 .sidebar h2 {
